@@ -82,6 +82,7 @@ document.getElementById("news-image").addEventListener("click", function () {
 
     imgPopup.appendChild(img);
     document.body.appendChild(imgPopup);
+    console.log("image clicked successufully");
 
     imgPopup.addEventListener("click", function () {
         document.body.removeChild(imgPopup);
